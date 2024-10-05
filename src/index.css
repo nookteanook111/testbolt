@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-gray-100;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+.glassmorphism {
+  @apply bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg;
+}
+
+.glassmorphism-light {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg;
+}
